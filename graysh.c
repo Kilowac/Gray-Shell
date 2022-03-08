@@ -24,7 +24,7 @@ int main(void){
 		smt = 0;
 		args = 0;
 		hld = 0;
-		write(1, "EbinShell::>>", 13); //Prompt
+		write(1, "GrayShell::>>", 13); //Prompt
 		fgets(input, 1024, stdin);
 		//Read in the characters entered by the user and count how many words are encountered
 		//Something of note is that it will explicitly count an empty string if the first character is a space,
